@@ -44,6 +44,7 @@
 				Sharing your data will help improve the training data and make open models better over time.
 			</p>
 		{/if}
+		{#if false }
 		<label class="mt-6 flex items-center">
 			<Switch name="hideEmojiOnSidebar" bind:checked={$settings.hideEmojiOnSidebar} />
 			<div class="inline cursor-pointer select-none items-center gap-2 pl-2 font-semibold">
@@ -71,8 +72,9 @@
 				</p>
 			</div>
 		</label>
-
+		{/if}
 		<div class="mt-12 flex flex-col gap-3">
+			{#if false}
 			<a
 				href="https://huggingface.co/spaces/huggingchat/chat-ui/discussions"
 				target="_blank"
@@ -80,6 +82,7 @@
 				class="flex items-center underline decoration-gray-300 underline-offset-2 hover:decoration-gray-700"
 				><CarbonArrowUpRight class="mr-1.5 shrink-0 text-sm " /> Share your feedback on HuggingChat</a
 			>
+			{/if}
 			<button
 				onclick={async (e) => {
 					e.preventDefault();

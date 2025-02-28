@@ -36,5 +36,5 @@ export const DEFAULT_SETTINGS = {
 	assistants: [],
 	tools: [],
 	disableStream: false,
-	directPaste: false,
+	directPaste: true,
 } satisfies SettingsEditable;

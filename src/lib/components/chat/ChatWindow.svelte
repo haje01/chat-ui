@@ -498,6 +498,7 @@
 					{/if}
 					<span class="max-sm:hidden">·</span><br class="sm:hidden" /> 답변 내용은 정확하지 않거나 틀릴 수 있습니다.
 				</p>
+				{#if false}
 				{#if messages.length}
 					<button
 						class="flex flex-none items-center hover:text-gray-400 max-sm:rounded-lg max-sm:bg-gray-50 max-sm:px-2.5 dark:max-sm:bg-gray-800"
@@ -514,6 +515,7 @@
 							<div class="max-sm:hidden">Share this conversation</div>
 						{/if}
 					</button>
+				{/if}
 				{/if}
 			</div>
 		</div>
